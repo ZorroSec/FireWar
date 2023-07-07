@@ -20,3 +20,16 @@ header ul{
     justify-content: space-around;
     list-style: none;
 }
+.conteiner .buscas .title-buscas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner .buscas .card-buscas .card-cep{
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    background: #ffffff;
+    
+}
