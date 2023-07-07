@@ -10,4 +10,4 @@ class FireWar:
     
     def home(self):
         if self.name == 'Zezo':
-            render_template('')
+            render_template('index.html')
