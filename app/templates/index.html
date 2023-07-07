@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/style.css">
     <title>Document</title>
 </head>
 <body>
     
-    <headeer class="header">
-        <div class="logo">
-            <h1>FireWar</h1>
-        </div>
-        <div class="menu">
-            <div class="link">
-                <a href="/geradores">Geradores</a>
-            </div>
-            <div class="link">
-                <a href="/buscas">Buscas</a>
-            </div>
-        </div>
-    </headeer>
+    <header class="header">
+        <ul>
+            <li>
+                <div class="logo">
+                    <h1>FIreWar</h1>
+                </div>
+            </li>
+            <li>
+                <div class="link">
+                    <a href="/geradores">Geradores</a>
+                </div>
+            </li>
+            <li>
+                <div class="link">
+                    <a href="/buscas">Buscas</a>
+                </div>
+            </li>
+        </ul>
+    </header>
     <section class="conteiner">
         <div class="buscas">
             <div class="title-buscas">
@@ -28,9 +35,30 @@
             </div>
             <br><hr><br>
             <div class="card-buscas">
-                <div class="busca-cep">
-                    
-                </div>
+                <ul>
+                    <li>
+                        <div class="card-cep">
+                            <div class="card-title-cep">
+                                <h3>Buscar Cep</h3>
+                            </div>
+                            <div class="card-cep-origin">
+                                <details>
+                                    <summary>Clique aqui...</summary>
+                                    <div class="card-saiba-mais">
+                                        <div class="input-cep">
+                                            <input type="text" placeholder="Enter the cep">
+                                        </div>
+                                        <div class="button-cep">
+                                            <button class="btn">Enviar</button>
+                                        </div>
+                                    </div>
+                                </details>
+                            </div>
+                        </div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
         </div>
     </section>
